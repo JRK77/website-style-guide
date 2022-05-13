@@ -1,0 +1,27 @@
+* {
+    font-family: Arial;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+table, th, td {
+    border: 1px solid purple;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}

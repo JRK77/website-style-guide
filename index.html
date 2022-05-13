@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web design reference</title>
+        <link href="./resources/style.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Web Design Style Guide</h1>
+        </header>
+        <section id="color">
+            <h2>Color</h2>
+            <br>
+            <table>
+                <tr>
+                    <th scope="col">Color system</th>
+                    <th scope="col">Explanation</th>
+                    <th scope="col">Opacity</th>
+                </tr>
+                <tr>
+                    <td>rgb</td>
+                    <td>Red, green, blue color components from 0 - 255</td>
+                    <td>a (alpha/opacity) 0 - 1, 0 is transparent 1 is opaque</td>
+                </tr>
+                <tr>
+                    <td>hsl</td>
+                    <td>Hue: 0 - 360 on color wheel<br>Saturation: 0% - 100%<br>Lightness %</td>
+                    <td>a (alpha/opacity) 0 - 1, 0 is transparent 1 is opaque</td>
+                </tr>
+                <tr>
+                    <td>hex</td>
+                    <td>Colour code preceded by #</td>
+                </tr>
+            </table>
+            <p>Property key-words: color, background-color, opacity.</p>
+        </section>
+        <br>
+        <section id="font">
+            <h2>Font</h2>
+            <br>
+            <table>
+                <tr>
+                    <th scope="col">'Standard' fonts</th>
+                    <th scope="col">Web fonts</th>
+                </tr>
+                <tr>
+                    <td>Use the 'font-family' property</td>
+                    <td>Google, Adobe<br>Use links provided in the head. Font-family will be provided</td>
+                </tr>
+            </table>
+            <p>Property key-words: font-family, font-weight<br>font-style, text-align, text-transform</p>
+        </section>
+        <br>
+        <section id="links">
+            <h2>Links</h2>
+            <br>
+            <ul>
+                <li>Anchor opening and closing tags, a, make text a hyperlink<br>enter href to insert the link address (e.g. webpage)<br>use target equals "_blank" to make it open in a new tab</li>
+                <br>
+                <li>We can make images into a link by wrapping the code in anchor tags</li>
+                <br>
+                <li>An id attribute can be used to link to a section on the page, e.g. #top</li>
+            </ul>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th scope="col">Pseudo-class</th>
+                    <th scope="col">Action</th>
+                </tr>
+                <tr>
+                    <td>:link</td>
+                    <td>Normal (not clicked) pre-click</td>
+                </tr>
+                <tr>
+                    <td>:visited</td>
+                    <td>Once clicked</td>
+                </tr>
+                <tr>
+                    <td>:hover</td>
+                    <td>Hover action</td>
+                </tr>
+                <tr>
+                    <td>:active</td>
+                    <td>Clicked</td>
+                </tr>
+            </table>
+            <p>Property key-words: text-decoration (underline)<br>title (hover text), cursor (pointer)</p>
+        </section>
+        <br>
+        <section id="buttons">
+            <h2>Buttons</h2>
+            <br>
+            <p>Skeuomorphic (3D) or flat (2D). Refer to Codecademy lesson material.</p>
+            <br>
+            <p>Property key-words: color, background-color, opacity.</p>
+        </section>
+    </body>
+</html>
